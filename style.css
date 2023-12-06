@@ -1,0 +1,54 @@
+html{
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    cursor: crosshair;
+}
+
+h1{
+    color: black;
+}
+
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    cursor: crosshair;
+}
+
+.container{
+    margin: 10px;
+}
+
+button[name="adder"]{
+    padding: 10px;
+    margin: 15px;
+    background-color: #3498db;
+    color: whitesmoke;
+    border: none;
+    cursor: crosshair;
+}
+
+button[name="adder"]:hover{
+    background-color: #2980b9;
+}
+
+button[name="deleter"]{
+    padding: 10px;
+    margin: 15px;
+    background-color: #ff0000;
+    color: whitesmoke;
+    border: none;
+    cursor: crosshair;
+}
+
+button[name="deleter"]{
+    background-color: darkred;
+}
+
+#carDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    gap: 20px;
+}
